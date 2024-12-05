@@ -1,6 +1,6 @@
 # Frontend - Logs y Gestión de Usuarios
 
-```markdown
+
 Este proyecto incluye la gestión de usuarios y un sistema de visualización de logs, con funcionalidades como edición de usuarios, desactivación y visualización de logs paginados.
 
 
