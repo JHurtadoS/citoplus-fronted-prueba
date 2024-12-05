@@ -30,6 +30,7 @@ export const DashboardProvider = ({ children }: { children: React.ReactNode }) =
             setPage(page);
             setTotalPages(data.totalPages);
         } catch (err) {
+            console.error(err)
             setError('Error al cargar usuarios');
         } finally {
             setLoading(false);

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import api from "@/utils/api";
 
 export interface LogEntry {
@@ -5,6 +6,7 @@ export interface LogEntry {
     user_id: string;
     target_id: string;
     action: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     details: any;
     created_at: string;
 }

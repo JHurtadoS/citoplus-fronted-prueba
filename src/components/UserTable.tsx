@@ -40,6 +40,8 @@ const UserTable = () => {
                 });
                 fetchUserPage(page, items);
             } catch (err) {
+                console.error(err)
+
                 toast({
                     title: 'Error',
                     description: 'No se pudo deshabilitar el usuario.',
@@ -61,6 +63,7 @@ const UserTable = () => {
             });
             fetchUserPage(page, items);
         } catch (err) {
+            console.error(err)
             toast({
                 title: 'Error',
                 description: 'No se pudo actualizar el usuario.',

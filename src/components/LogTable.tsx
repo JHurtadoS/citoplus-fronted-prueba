@@ -40,6 +40,7 @@ const LogTable = () => {
             setPage(data.page);
             setTotalPages(data.totalPages);
         } catch (error) {
+            console.error(error)
             setError('Error al cargar los logs.');
             toast({
                 title: 'Error',

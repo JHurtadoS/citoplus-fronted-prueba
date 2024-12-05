@@ -59,7 +59,7 @@ const CreateUserDialog = () => {
             reset();
             fetchUserPage(1, 10);
         } catch (error) {
-
+            console.error(error)
             toast({
                 title: "Error al crear el usuario",
                 description: "Error",
